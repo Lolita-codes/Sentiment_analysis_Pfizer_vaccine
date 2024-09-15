@@ -42,3 +42,5 @@ o is_retweet: A boolean value indicating whether the tweet is a retweet (True if
 
 **Key Findings**  
 The overall sentiment towards the Pfizer vaccine was mixed(neutral), with a significant portion of feedback showing positive sentiment.  
+
+Data Credit: https://raw.githubusercontent.com/amankharwal/Website-data/master/vaccination_tweets.csv
