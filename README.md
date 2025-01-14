@@ -1,27 +1,28 @@
 # Pfizer Vaccine Sentiment Analysis Report
-This analysis focuses on understanding public sentiment surrounding the Pfizer COVID-19 vaccine by analyzing textual data from various sources.
+This project focuses on analyzing a dataset containing vaccination-related tweets to understand user demographics, engagement patterns, and the overall sentiment toward vaccination-related topics.
 
 # Table of contents 
 
-**Project Objective**  
+## Project Objective
 The goal is to identify key sentiment trends, categorize opinions, and provide insights into how the vaccine is perceived across different demographics and platforms. 
 This analysis provides valuable insights that can inform public health campaigns, address public concerns, and promote vaccine adoption strategies based on prevailing sentiment trends.
 
-**Methods Used**  
+## Methods Used  
 The project involved the following steps:  
-o Data Cleaning  
-o Text Preprocessing: Tokenization, stopword removal, stemming, and lemmatization were employed to break down text into meaningful components for analysis.  
-o Sentiment Analysis: Natural Language Processing (NLP) techniques to determine the sentiment (positive, negative, neutral) of the comments or feedback related to the Pfizer vaccine.  
-o Data Visualization: Graphs and visual representations to present sentiment trends and demographic influences.
+- Data Cleaning
+- Data Preprocessing
+- Text Preprocessing: Tokenization, stopword removal, stemming, and lemmatization.
+- Sentiment Analysis: Natural Language Processing (NLP).
+- Data Visualization
 
-**Technologies Utilized**  
-o Python  
-o Natural Language Toolkit (NLTK)  
-o Pandas  
-o Matplotlib & Seaborn  
-o Sklearn  
+## Technologies Utilized
+- Python
+- Natural Language Toolkit (NLTK)
+- Pandas
+- Matplotlib & Seaborn
+- WordCloud  
 
-**Project Description**  
+## Project Description  
 This project utilized a dataset containing feedback or reviews related to the Pfizer COVID-19 vaccine. The dataset contains various columns such as:  
 o id: A unique identifier for the tweet. It corresponds to the tweet's ID on Twitter.  
 o user_name: The username of the person who posted the tweet.  
@@ -40,7 +41,17 @@ o retweets: The number of times the tweet has been retweeted.
 o favorites: The number of times the tweet has been liked.  
 o is_retweet: A boolean value indicating whether the tweet is a retweet (True if it's a retweet, False otherwise).
 
-**Key Findings**  
-The overall sentiment towards the Pfizer vaccine was mixed(neutral), with a significant portion of feedback showing positive sentiment.  
+## Key Findings  
+- A significant proportion of tweets were from non-verified users, indicating that everyday users contribute heavily to vaccination discussions.
+- Top user locations included metropolitan regions, highlighting concentrated engagement from urban areas.
+- Most users fell into the "1-1000" followers category, indicating a prevalence of individual contributors rather than influencers.
+- Common sources included mobile devices and web applications, showcasing platform diversity.
+- The overall sentiment towards the Pfizer vaccine was mixed(neutral), with a significant portion of feedback showing positive sentiment.  
 
-Data Credit: https://raw.githubusercontent.com/amankharwal/Website-data/master/vaccination_tweets.csv
+## Recommendations 
+- Leverage trending hashtags to amplify message reach.
+- Engage with verified users to enhance the credibility of vaccination discussions.
+- Collaborate with health experts to create engaging and factual content addressing vaccine safety, benefits, and common misconceptions.
+- Use insights from location analysis to design region-specific campaigns addressing unique public health concerns.
+-  Monitor frequently used hashtags and create campaigns around them to ride the wave of trending discussions.
+  
